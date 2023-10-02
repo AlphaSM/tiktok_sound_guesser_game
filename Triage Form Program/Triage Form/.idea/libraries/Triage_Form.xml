@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Triage_Form">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/Triage_Form.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
