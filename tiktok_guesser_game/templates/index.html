@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Sound Guessing Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="game-container">
+        <h1>TikTok Sound Guessing Game</h1>
+        <div id="question-container">
+            <p id="quote"></p>
+            <div id="options-container"></div>
+            <p id="timer"></p>
+        </div>
+        <p id="turn-info"></p>
+        <p>Player 1 Score: <span id="player1-score">0</span></p>
+        <p>Player 2 Score: <span id="player2-score">0</span></p>
+        <button id="start-btn">Start Game</button>
+        <p id="end-game-message"></p>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

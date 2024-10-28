@@ -1,0 +1,12 @@
+[
+    {
+        "quote": "This is **** the beginning",
+        "options": ["This is only the beginning", "This is just the beginning", "This is not the beginning"],
+        "answer": "This is just the beginning"
+    },
+    {
+        "quote": "Don't be sorry, be ****",
+        "options": ["Don't be sorry, be better", "Don't be sorry, be different", "Don't be sorry, be apologetic"],
+        "answer": "Don't be sorry, be better"
+    }
+]
